@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <title>Various DOM Tests</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<style>
+    * {
+        font-family: system-ui;
+    }
+    .useragent-flx {
+    display: flex;
+    max-width: 20em;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 182px;
+    font-size: 26px;
+    text-align: center;
+}
+    button {
+display: inline-block;
+width: 215px;
+/*font-size: 10px;*/
+margin: auto;
+/*    margin-top: auto;*/
+/*margin-top: auto;*/
+background: #392bdd;
+color: white;
+border: none;
+outline: none;
+height: 58px;
+box-sizing: border-box;
+border-radius: 39px;
+margin-top: 11px;
+font-size: 24px;
+line-height: 52px;
+}
+button:hover {
+    cursor: pointer;
+}
+ @media only screen and (max-width: 600px) {
+      button {
+        font-size: 20px;
+      }
+       .useragent-flx {
+        font-size: 24px;
+          top: 82px;
+      }
+ }
+</style>
+</head>
+<body>
+<div class="useragent-flx">
+  <div class="info"></div>
+  <div class="app"></div>
+  <div class="lang"></div>
+  <div class="oscpu"></div>
+  <div class="platform"></div>
+  <div class="userAgent"></div>
+  <button  download>Get useragent</button>
+</div>
+  <script src ="useragent.js"></script>
+</body>
+</html>
