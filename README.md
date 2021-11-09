@@ -3,3 +3,11 @@ useragent-quickview is one of the best ways to detect a user agent string of any
 
 # live site
 https://useragent-quickview.000webhostapp.com/
+
+# Tools Used
+  jQuery
+
+# Copyright & License
+
+© 2021 Suresh.P
+Code released under MIT License
